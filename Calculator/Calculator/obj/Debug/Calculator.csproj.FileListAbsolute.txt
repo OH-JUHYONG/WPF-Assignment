@@ -1,0 +1,16 @@
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.csprojAssemblyReference.cache
+E:\WPF\Calculator\Calculator\obj\Debug\MainWindow.g.cs
+E:\WPF\Calculator\Calculator\obj\Debug\App.g.cs
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.cache
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator_MarkupCompile.lref
+E:\WPF\Calculator\Calculator\bin\Debug\Calculator.exe.config
+E:\WPF\Calculator\Calculator\bin\Debug\Calculator.exe
+E:\WPF\Calculator\Calculator\bin\Debug\Calculator.pdb
+E:\WPF\Calculator\Calculator\obj\Debug\App.baml
+E:\WPF\Calculator\Calculator\obj\Debug\MainWindow.baml
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.g.resources
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.Properties.Resources.resources
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.csproj.GenerateResource.cache
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.csproj.CoreCompileInputs.cache
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.exe
+E:\WPF\Calculator\Calculator\obj\Debug\Calculator.pdb
