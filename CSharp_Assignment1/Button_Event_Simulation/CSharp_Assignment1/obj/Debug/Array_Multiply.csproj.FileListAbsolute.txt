@@ -1,0 +1,7 @@
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\bin\Debug\CSharp_Assignment1.exe.config
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\bin\Debug\CSharp_Assignment1.exe
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\bin\Debug\CSharp_Assignment1.pdb
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\obj\Debug\Array_Multiply.csprojAssemblyReference.cache
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\obj\Debug\Array_Multiply.csproj.CoreCompileInputs.cache
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\obj\Debug\CSharp_Assignment1.exe
+E:\WPF\CSharp_Assignment1\CSharp_Assignment1\obj\Debug\CSharp_Assignment1.pdb

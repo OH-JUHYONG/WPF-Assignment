@@ -1,0 +1,7 @@
+E:\WPF\CSharp_Assignment1\Class_Property\bin\Debug\Class_Property.exe.config
+E:\WPF\CSharp_Assignment1\Class_Property\bin\Debug\Class_Property.exe
+E:\WPF\CSharp_Assignment1\Class_Property\bin\Debug\Class_Property.pdb
+E:\WPF\CSharp_Assignment1\Class_Property\obj\Debug\Class_Property.csprojAssemblyReference.cache
+E:\WPF\CSharp_Assignment1\Class_Property\obj\Debug\Class_Property.csproj.CoreCompileInputs.cache
+E:\WPF\CSharp_Assignment1\Class_Property\obj\Debug\Class_Property.exe
+E:\WPF\CSharp_Assignment1\Class_Property\obj\Debug\Class_Property.pdb
