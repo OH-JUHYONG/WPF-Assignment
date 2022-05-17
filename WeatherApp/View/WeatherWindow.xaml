@@ -1,0 +1,58 @@
+﻿<Window x:Class="WeatherApp.View.WeatherWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WeatherApp.View"
+        xmlns:vm="clr-namespace:WeatherApp.ViewModel"
+        xmlns:converter="clr-namespace:WeatherApp.ViewModel.Converters"
+        mc:Ignorable="d"
+        Title="WeatherWindow" Height="500" Width="300">
+    <Window.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground"
+                    Value="#555555"/>
+        </Style>
+        
+        <!--여기서 vm이란 resource는 WeatherVM의 객체를 이야기하는 것이다.-->
+        <vm:WeatherVM x:Key="vm"/>
+        <converter:HumidityToStringConverter x:Key="htosconv"/>
+    </Window.Resources>
+       
+    <Grid DataContext="{StaticResource vm}">
+        <StackPanel DataContext="{Binding Path=WeatherDataToShow}">
+            
+            <!--실시간 정보를 반영하기 위해 Command&Converter 사용-->
+            <Button Content="Refresh"
+                    Command="{Binding Source={StaticResource vm}, Path=RefreshCommand}"/>
+            <TextBox/>
+            <ListView Height="100"
+                      ItemsSource="{Binding Source={StaticResource vm}, Path=Cities}"
+                      SelectedItem="{Binding Source={StaticResource vm}, Path=SelectedCity}"/>
+            <!--{Binding Path=Cities}만 하면 안되는 이유는 vm.WeatherDataToShow.Ciries가 아니라
+                 vm.Cities 이기 때문에 ItemsSource="{Binding Source={StaticResource vm}, Path=Cities}"을 해줘야 한다.-->
+            
+            <!-- {Binding Path=Name} == vm.WeatherDataToShow.Name-->
+            <TextBlock Text="{Binding Path=Name}" 
+                       Margin="0, 20, 0, 0"
+                       FontSize="20"
+                       FontWeight="Bold"/>
+            <TextBlock Text="{Binding Path=Main.Temp}"
+                       FontSize="40"
+                       FontWeight="ExtraBold"
+                       Margin="0, 30, 0, 0"/>
+            <TextBlock Text="{Binding Path=Main.Humidity, Converter={StaticResource htosconv}}"
+                       FontSize="20"
+                       FontWeight="DemiBold"
+                       Margin="0, 20, 0, 0"/>
+            <TextBlock Text="{Binding Path=Wind.Deg}"
+                       FontSize="20"
+                       FontWeight="DemiBold"
+                       Margin="0, 10, 0, 0"/>
+            <TextBlock Text="{Binding Path=Wind.Speed}"
+                       FontSize="20"
+                       FontWeight="DemiBold"
+                       Margin="0, 10, 0, 0"/>
+        </StackPanel>
+    </Grid>
+</Window>
