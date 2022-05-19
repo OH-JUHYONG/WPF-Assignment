@@ -76,7 +76,7 @@
 
 
 
-            <!--<StackPanel Grid.Column="1" Orientation="Vertical" Background="#FCF6F5" >
+            <!--  gg<StackPanel Grid.Column="1" Orientation="Vertical" Background="#FCF6F5" >
                 <TextBlock Text="로그인 해주세요" Margin="50" TextAlignment="Center" FontSize ="30" FontWeight="Bold"/>
                 <StackPanel Orientation="Horizontal" Margin="20" HorizontalAlignment="Center">
                     -->
